@@ -209,57 +209,56 @@ span{
   display: inline-block;
   width: 100%;
   background-color: #17252A;
+
 }
 
 .webheading{
   /* border: 2px solid white; */
   color: #3AAFA9;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: bold;
   text-align: center;
   padding: 12px;
   letter-spacing: 2.5px;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 .webboxes{
   /* border: 2px solid white; */
   display: flex;
   padding: 25px;
-  height: 450px;
-  margin-top: 40px;
+  height: 100%;
+  margin-top: 10px;
 }
 
 .box1 .innerbox{
   /* border: 2px solid greenyellow; */
   height: 370px;
   width: 300px;
-  padding: 12px;
+  /* padding: 12px; */
   margin-left: 25px;
 }
 
 .innerbox{
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .innerbox:hover{
-  transform: scale(1.3);
+  transform: scale(1.1);
 }
 
 .box2 .innerbox{
-  /* border: 2px solid greenyellow; */
-  height: 370px;
-  width: 300px;
+  height: 100%;
+  /* align-items: center; */
+  text-align: center;
+  width: 100%;
   padding: 12px;
   margin-left: 25px;
 }
 
-.webboxes .box1 img{
+.webboxes .box1 object{
   margin-left: 80px;
-}
-
-.webboxes .box2 img{
-  margin-left: 80px;
+  /* margin: auto; */
 }
 
 .box1{
@@ -272,14 +271,14 @@ span{
 .box2{
   /* border-right: 2px solid burlywood; */
   padding: 40px;
-  width: 50%;
+  width: 40%;
   justify-content: space-around; 
 }
 
 .innerbox{
   cursor: pointer;
 }
-.box1 p{
+.box1 li{
   font-size: 25px;
   color: #dedede;
   font-family: 'OpenSans';
@@ -293,7 +292,7 @@ span{
   font-size: 50px;
 }
 
-.box2 p{
+.box2 li{
   font-size: 25px;
   color: #dedede;
   font-family: 'OpenSans';
@@ -309,9 +308,11 @@ span{
 
 .webboxes > div{
   margin: 5px;
+  height: 70vh;
+
 }
 
-/* FAQ heading */
+/* FAQ headig */
 .faq{
   height: 100vh;
   display: inline-block;
