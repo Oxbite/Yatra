@@ -5,33 +5,36 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'openSans';
+  src:url('./Component/fonts//OpenSans-CondBold.ttf') format('woff2');
+}
+
 *{
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Helvetica; */
+  font-family: 'openSans';
+  
 }
 
 /* Navigation codes */
 nav{
-  background-color: #3AAFA9;
+  justify-content: space-between;
   display: flex;
-  height: 60px;
+  background-color: #3AAFA9;
+  z-index: 1;
   width: 100%;
-  line-height: 60px;
-  padding: 0px 100px;
+  align-items: center;
   position: fixed;
-  overflow: hidden;
+  padding: 10px ;
 }
 
-nav ul{
-  margin-left: 45%;
-  width: 100%;
-}
 
 nav li{
-  display: inline-block;
-  list-style: none;
+  display:inline-flex;
 }
+
 nav li a{
   text-decoration: none;
   text-transform: uppercase;
@@ -47,17 +50,11 @@ nav ul li a:hover{
   transition: all 0.5s ease os;
 }
 
-.logoname{
-  font-size: 28px;
-  color: white;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
+.logotext p{
   cursor: pointer;
-  border-bottom: 3px solid #fff;
-  height: 50px;
-}
-
-.logotext{
+  font-size: 28px;
+  text-transform: uppercase;
+  color: white;
   font-family: 'ocr';
 }
 
@@ -69,51 +66,52 @@ h1{
 .maincontainer{
   background-color: #3AAFA9;
   height: 100vh;
-  /* border: 3px solid #3AAFA9; */
+  /* width: 100vw; */
 }
 
 .container{
   display: flex; 
-  /* margin: auto; */
-  width: 100%;
+  margin: auto;
 }
 
 .maincontainer .text1{
+  margin: auto;
+  margin-top: 30vh;
   font-size: 50px;
   font-weight: bold;
   letter-spacing: 1.5px;
   color: #fff;
-  /* border: 2px solid white; */
   height: 300px;
-  margin-top: 15%;
-  margin-left: 10%; 
 } 
 
 .homeimage{
-  /* border: 2px solid white; */
-  margin-top: 7em;
-  margin-left: 6em;
+  margin: auto;
+  margin-top: 15vh;
 }
 
 .abtBtn{
+  text-transform: uppercase;
   padding: 14px;
   color: #000000;
   background-color: #fff;
   cursor: pointer;
   outline: none;
-  position: absolute;
   border: none;
   border-radius: 25px;
-  letter-spacing: 1.9px;
   font-size: 25px;
   font-weight: bold;
-  margin-left: 10%;
-  margin-top: 3px;
+  word-spacing: 10px;
+  letter-spacing: 4px;
+}
+
+.btn{
+  display: absolute;
+  top: 200px;
+  margin: 20vh 15vw;
 }
 
 /* About us */
 .abutus{
-  /* border: 2px solid black; */
   height: 100vh;
   display: inline-block;
   width: 100%;

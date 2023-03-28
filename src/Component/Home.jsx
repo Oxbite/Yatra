@@ -12,13 +12,14 @@ export default function Home(){
                             THAT ATTRACTS <br />
                             EYES <br />
                         </p>
-                    </div>
+                        <div className="btn">
+                            <button className="abtBtn">About Us</button >
+                        </div>
+                    </div> 
                     <div className="homeimage">
                         <object type="image/svg+xml" aria-label="pcImage" data={pc} width="600px"></object>
-                        {/* <img src={Homeimg}  width="600px" height="450px"/> */}
                     </div>
                 </div>
-                <button className="abtBtn">About Us</button >
             </div>
         </>
     )
