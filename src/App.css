@@ -119,6 +119,7 @@ h1{
 
 .abtimg{
   text-align: center;
+  transform: rotate(90deg);
   /* animation: rotation 2s infinite linear; */
 }
 
