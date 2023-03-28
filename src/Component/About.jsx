@@ -1,8 +1,7 @@
 import React from 'react';
+import  { ScrollRotate } from 'react-scroll-rotate';
 import Imageanimation from './Imageanimation';
 import book from '../images/images/aboutBook.svg';
-
-// import aboutimg from '../images/images/aboutBook.png';
 
 
 export default function About(){
@@ -11,7 +10,10 @@ export default function About(){
             <div className="abutus" id='about'>
                 <div className="abtcontainer">
                     <div className="abtimg">
-                        <object type="image/svg+xml" aria-label="pcImage" data={book} width="70px"></object>
+                        <ScrollRotate method={"perc"} loops={3}>
+                            <object type="image/svg+xml" aria-label="pcImage" data={book} width="70px"></object>
+                        </ScrollRotate>
+
                     </div>
                     <p className='heading'> ABOUT <span>YATRA</span></p>
                     <p className='abuttext'>
