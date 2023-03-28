@@ -123,15 +123,44 @@ h1{
   /* animation: rotation 2s infinite linear; */
 }
 
-/* @keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  } */
+.book{
+    animation: rotation 20s infinite linear;
+  
+}
+.book:nth-child(1){
+  position: relative; 
+  top: 250px;
+  right: 50px;
+  transform: rotate(-55deg);
+}
 
+.book:nth-child(2){
+  position: relative; 
+  top: -20px;
+  left: 650px;
+  transform: rotate(-30deg);
+}
 
+.book:nth-child(3){
+  position: relative; 
+  top: 320px;
+  left: 850px;
+  transform: rotate(-30deg);
+}
+
+.book:nth-child(4){
+  position: relative; 
+  top: -20px;
+  left: -450px;
+  transform: rotate(-30deg);
+}
+
+.book:nth-child(5){
+  position: relative; 
+  top: 420px;
+  left:-550px;
+  transform: rotate(50deg);
+}
 .abtcontainer{
   background-color: #dedede;
   margin-top: 10%;
@@ -139,6 +168,15 @@ h1{
   width: 50%;
   padding: 12px;
   border-radius: 25px;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(1080deg);
+  }
 }
 
 
@@ -155,12 +193,13 @@ span{
 }
 
 .abuttext{
-  padding: 16px;
-  font-size: 30px;
-  text-align: center;
-  letter-spacing: 1.9px;
+  padding: 20px 20px;
+  height: fit-content;
+  font-size: 20px;
+  letter-spacing: 0.9px;
   color: #2a938e;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: openSans;
+  text-align: justify;
 }
 
 /* Website plans */
