@@ -1,6 +1,6 @@
 import React from 'react';
 // import { Link } from 'react-router-dom';
-import Contactimg from '../images/images/contact.png';
+import Contacting from '../images/images/mail.svg';
 import Facebook from '../images/images/facebook.png';
 import Linkedln from '../images/images/linked.png';
 import Instragram from '../images/images/instragram.png';
@@ -11,7 +11,8 @@ export default function Contact(){
             <div className="contact" id='contact'>
                 <div className='contcontainer'>
                     <div className='contimg'>
-                        <img src={Contactimg} height= "550" />
+                    <object type="image/svg+xml" aria-label="pcImage" data={Contacting} width="600px"></object>
+                        {/* <img src={Contactimg} height= "550" /> */}
                     </div>
                     <div className="contline"></div>
                     <div className="contdetail">

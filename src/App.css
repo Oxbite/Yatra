@@ -8,6 +8,7 @@
 *{
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Navigation codes */
@@ -152,7 +153,7 @@ span{
   text-align: center;
   letter-spacing: 1.9px;
   color: #2a938e;
-  font-family: 'OpenSans';
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Website plans */
@@ -354,14 +355,19 @@ span{
 }
 
 .contheading{
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 90px;
 }
 
 .contheadname{
+  font-family: Arial, Helvetica, sans-serif;
+
   font-size: 30px;
 }
 
 .conttexts{
+  font-family: Arial, Helvetica, sans-serif;
+
   margin-top: 20px;
   line-height: 1.8;
   font-size: 22px;

@@ -1,5 +1,7 @@
 import React from 'react';
 import Imageanimation from './Imageanimation';
+import book from '../images/images/book.svg';
+
 // import aboutimg from '../images/images/aboutBook.png';
 
 
@@ -10,7 +12,9 @@ export default function About(){
                 <div className="abtcontainer">
                     <div className="abtimg">
                         {/* <img src={aboutimg} width="100px" height="100px" /> */}
-                        <Imageanimation/>
+                        <object type="image/svg+xml" aria-label="pcImage" data={book} width="100%"></object>
+
+                        {/* <Imageanimation/> */}
                     </div>
                     <p className='heading'> ABOUT <span>YATRA</span></p>
                     <p className='abuttext'>
