@@ -8,56 +8,48 @@ export default function Website() {
     <>
       <div className="webplans" id="websiteplan">
         <div className="webpalns2">
-          <p className="webheading"> Website Plans</p>
+          <h1 className="webheading"> Website Plans</h1>
           <div className="webboxes">
-            <div className="box1">
-              <div className="innerbox">
-                {/* <img src={Websiteimg} width="150px" height="150px" /> */}
-                <object type="image/svg+xml" aria-label="Websiteimg" data={Websiteimg} width="120px"></object>
-                <p className="topics">Basic</p>
-                <ul>
-                  <li>Up to 5 pages</li>
-                  <li>Mobile responsive design</li>
-                  <li>Basic SEO optimization</li>
-                  <li>Contact form</li>
-                  <li>One time payment Rs.10,000</li>
-                    
-                </ul>
-              </div>
+            <div className="planBox">
+              <object type="image/svg+xml" aria-label="pcImage" data={Websiteimg} width="200px"></object>
+              <h2>Basic</h2>
+              <h3 className="price">NPR.8,000+</h3>
+              <br />
+              <p>Company landing page with </p>
+              <p>social media integration and</p>
+              <p>upto 500MB hosting storage</p>  
+              <br />
+              <input type="button" value="Join Now" className="btnn"/>
             </div>
-            <div className="box1">
-              <div className="innerbox">
-              <object type="image/svg+xml" aria-label="Websiteimg" data={Websiteimg1} width="120px"></object>
-                {/* <img src={Websiteimg1} width="150px" height="150px" /> */}
-                <p className="topics">Best</p>
-                <ul>
-                  <li>Up to 10 pages</li>
-                  <li>Custom design</li>
-                  <li>Advanced SEO optimization</li>
-                  <li>Contact form</li>
-                  <li>live chat</li>
-                  <li>Social media integration</li>
-                  <li>One time payment Rs.20,000</li> 
-                </ul>
-              </div>
+
+            <div className="contline"></div>
+
+            <div  className="planBox">
+              <object type="image/svg+xml" aria-label="pcImage" data={Websiteimg1} width="200px"></object>
+              <h2>Advanced</h2>
+              <h3 className="price">NPR.20,000+</h3>
+              <br />
+              <p>Webpage with content management</p>
+              <p>and social media integration</p>
+              <p>upto 5GB hosting storage.</p> 
+              <br />
+              <input type="button" value="Join Now" className="btnn"/>
             </div>
-            <div className="box2">
-              <div className="innerbox">
-              <object type="image/svg+xml" aria-label="Websiteimg" data={Websiteimg2} width="120px"></object>
-                {/* <img src={Websiteimg2} width="150px" height="150px" /> */}
-                <p className="topics">Premium</p>
-                <ul>
-                  <li>Unlimited pages</li>
-                  <li>Custom design with logo</li>
-                  <li>Advanced SEO optimization with ongoing monitoring and reporting</li>
-                  <li>Custom blog design and content creation</li>
-                  <li>24/7 website monitoring and security</li>
-                  <li>Social media integration</li>
-                  <li>Live chat and unlimited bandwidth</li>
-                  <li>One time payment Rs.1,50,000 with Rs.3000/month maintenance and support fee </li> 
-                </ul>
-              </div>
+
+            <div className="contline"></div>
+
+            <div  className="planBox">
+              <object type="image/svg+xml" aria-label="pcImage" data={Websiteimg2} width="200px"></object>
+              <h2>Premium</h2>
+              <h3 className="price">NPR.1,00,000+</h3>
+              <br />
+              <p>E-commerce functionality</p>
+              <p>unlimited hosting storage.</p>
+              <p>6 months free maintenance</p> 
+              <br />
+              <input type="button" value="Join Now" className="btnn"/>
             </div>
+
           </div>
         </div>
       </div>

@@ -198,7 +198,7 @@ span{
   font-size: 20px;
   letter-spacing: 0.9px;
   color: #2a938e;
-  font-family: openSans;
+  font-family: Helvetica;
   text-align: justify;
 }
 
@@ -209,107 +209,65 @@ span{
   display: inline-block;
   width: 100%;
   background-color: #17252A;
+}
 
+.btnn{
+  font-family:  Helvetica;
+  font-weight: bolder;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 5px;
+  text-transform: uppercase;
+  background-color: #DEF2F1;
+  color:#17252A;
 }
 
 .webheading{
   /* border: 2px solid white; */
   color: #3AAFA9;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: bold;
   text-align: center;
   padding: 12px;
-  letter-spacing: 2.5px;
-  margin-top: 10px;
+  /* letter-spacing: 2.5px; */
+  margin-top: 40px;
+}
+
+.planBox{
+  /* color: #3AAFA9; */
+  color: #DEF2F1;
+  margin: 100px;
+  margin-top: 20px;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.3s;
+
+}
+
+.planBox>p{
+  color: #557b79;
+  font-size:x-large;
+}
+
+.planBox:hover
+{
+  opacity: 1;
+  /* color: red; */
+  transform: scale(1.05);
+}
+
+.price{
+    color: #3AAFA9;
 }
 
 .webboxes{
-  /* border: 2px solid white; */
-  display: flex;
-  padding: 25px;
+  justify-content: center;
   height: 100%;
-  margin-top: 10px;
-}
-
-.box1 .innerbox{
-  /* border: 2px solid greenyellow; */
-  height: 370px;
-  width: 300px;
-  /* padding: 12px; */
-  margin-left: 25px;
-}
-
-.innerbox{
-  transition: 0.5s;
-}
-
-.innerbox:hover{
-  transform: scale(1.1);
-}
-
-.box2 .innerbox{
-  height: 100%;
-  /* align-items: center; */
-  text-align: center;
-  width: 100%;
-  padding: 12px;
-  margin-left: 25px;
-}
-
-.webboxes .box1 object{
-  margin-left: 80px;
-  /* margin: auto; */
-}
-
-.box1{
-  border-right: 2px solid burlywood;
-  padding: 40px;
-  width: 50%;
-  justify-content: space-around;
-}
-
-.box2{
-  /* border-right: 2px solid burlywood; */
-  padding: 40px;
-  width: 40%;
-  justify-content: space-around; 
-}
-
-.innerbox{
-  cursor: pointer;
-}
-.box1 li{
-  font-size: 25px;
-  color: #dedede;
-  font-family: 'OpenSans';
-  line-height: 37px;
-  margin-left: 7%;
-}
-
-.box1 .innerbox .topics{
-  text-align: center;
-  color: #2a938e;
-  font-size: 50px;
-}
-
-.box2 li{
-  font-size: 25px;
-  color: #dedede;
-  font-family: 'OpenSans';
-  line-height: 37px;
-  margin-left: 7%;
-}
-
-.box2 .innerbox .topics{
-  text-align: center;
-  color: #2a938e;
-  font-size: 50px;
-}
-
-.webboxes > div{
-  margin: 5px;
-  height: 70vh;
-
+  display: grid;
+  grid-template-columns: auto auto auto auto auto ;
+  
 }
 
 /* FAQ headig */
@@ -389,6 +347,7 @@ span{
 .contline{
   border: 2px solid #2a938e;
   margin-left: 5%;
+  height: 90%;
 }
 
 .contdetail{
