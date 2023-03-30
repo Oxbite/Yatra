@@ -1,14 +1,27 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import {Link} from 'react-scroll';
+import { useState } from 'react';
+import './navbar.css'
 
 export default function Navbar(props){
+
+  const [toogle,setToogle]=useState('')
+
+
+
   return(
     <div>
         <nav>
             <div className="logotext">
                 <p>{props.title}</p>
             </div>
-            <div className='navItems'>
+            <div  onClick={() => setToogle(!toogle)} className='hamburger'>
+              <div className='line'></div>
+              <div className='line'></div>
+              <div className='line'></div>
+
+            </div>
+            <div className={toogle ? "navItems active" : "navItems"}>
               <ul>
                   <li>
                   <Link to='main' className='active' smooth={true} duration={1000}>Home</Link>

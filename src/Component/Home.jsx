@@ -1,6 +1,7 @@
 import React from 'react';
 import Homeimg from '../images/images/mail.svg';
 import pc from '../images/images/pc.svg';
+import './home.css'
 export default function Home(){
     return(
         <>
@@ -17,7 +18,7 @@ export default function Home(){
                         </div>
                     </div> 
                     <div className="homeimage">
-                        <object type="image/svg+xml" aria-label="pcImage" data={pc} width="600px"></object>
+                        <object className='computer' type="image/svg+xml" aria-label="pcImage" data={pc} ></object>
                     </div>
                 </div>
             </div>

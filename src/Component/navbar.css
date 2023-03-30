@@ -1,0 +1,88 @@
+nav {
+    height: 50px;
+    justify-content: space-between;
+    display: flex;
+    background-color: #3aafa9;
+    z-index: 1;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    padding: 10px;
+
+  }
+  
+  nav li {
+    display: inline-flex;
+  }
+  
+  nav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  nav ul li a:hover {
+    color: #3aafa9;
+    transition: all 0.5s ease os;
+  }
+  
+  .logotext p {
+    cursor: pointer;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: white;
+    font-family: "ocr";
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  .hamburger{
+    display: none;
+  }
+  
+  @media (max-width: 900px){
+    .hamburger{
+        margin-right: 50px;
+
+        display: block;
+        cursor: pointer;
+    }
+    .hamburger .line{
+        width: 30px;
+        height: 3px;
+        background: black;
+        margin: 6px;
+    }
+    .navItems.active{
+        height: 450px;
+    }
+
+    .navItems.active li{
+        opacity: 1;
+    }
+
+    .navItems{
+        height: 0;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: white;
+        transition: 0.2s;
+      
+    }
+    .navItems li{
+        display: block;
+        width: fit-content;
+        margin: 40px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+    }
+  }

@@ -1,0 +1,107 @@
+.maincontainer {
+    background-color: #3aafa9;
+    /* width: 100vw; */
+}
+
+.container {
+    display: flex;
+    margin: auto;
+}
+
+.maincontainer .text1 {
+    margin: auto;
+    margin-top: 25vh;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    color: #fff;
+}
+
+.homeimage {
+    margin: auto;
+    margin-top: 15vh;
+}
+
+.abtBtn {
+    text-transform: uppercase;
+    padding: 14px;
+    color: #000000;
+    background-color: #fff;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    word-spacing: 10px;
+    letter-spacing: 4px;
+}
+
+.btn {
+    display: absolute;
+    top: 200px;
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+.main-book {
+    margin: auto;
+}
+
+
+.computer {
+    width: 500px;
+}
+
+
+@media (max-width: 1200px) {
+    .computer {
+        width: 400px;
+    }
+}
+
+@media (max-width: 992px) {
+    .maincontainer .text1 {
+
+        font-size: 35px;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .computer {
+        margin-top: 40px;
+        width: 200px;
+    }
+
+    .maincontainer .text1 {
+
+        font-size: 4vh;
+
+    }
+    .abtBtn {
+        padding: 14px;
+        font-size: 18px;
+        word-spacing: 4px;
+        letter-spacing: 4px;
+    }
+}
+
+@media (max-width: 499px) {
+    .computer {
+        margin-top: 1px;
+        width: 80px;
+    }
+
+    .maincontainer .text1 {
+        margin-top: 16vh;
+        font-size: 12px;
+
+    }
+    
+    .abtBtn {
+        padding: 10px;
+        font-size: 12px;
+        word-spacing: 2px;
+    }
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import  { ScrollRotate } from 'react-scroll-rotate';
 import Imageanimation from './Imageanimation';
 import book from '../images/images/aboutBook.svg';
+import './about.css'
 
 
 export default function About(){
@@ -11,11 +12,6 @@ export default function About(){
                 
 
                 <div className="abtcontainer">
-
-                        
-                        
-
-
                    <div className='BooksHolder'>
                     <div className="abtimg book">
                         <ScrollRotate method={"perc"} loops={3}>
