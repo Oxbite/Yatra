@@ -16,41 +16,43 @@ export default function About(){
                         
 
 
+                   <div className='BooksHolder'>
                     <div className="abtimg book">
-                    <ScrollRotate method={"perc"} loops={3}>
-                        <object type="image/svg+xml" aria-label="pcImage" data={book} width="70px"></object>
-                        
-                    </ScrollRotate>
-                    </div>
+                        <ScrollRotate method={"perc"} loops={3}>
+                            <object type="image/svg+xml" aria-label="pcImage" data={book} width="70px"></object>
+                            
+                        </ScrollRotate>
+                        </div>
 
-                    <div className="abtimg book">
-                    <ScrollRotate method={"perc"} loops={3}>
-                        <object type="image/svg+xml" aria-label="pcImage" data={book} width="70px"></object>
-                        
-                    </ScrollRotate>
-                    </div>
+                        <div className="abtimg book">
+                        <ScrollRotate method={"perc"} loops={3}>
+                            <object type="image/svg+xml" aria-label="pcImage" data={book} width="70px"></object>
+                            
+                        </ScrollRotate>
+                        </div>
 
-                    <div className="abtimg book">
-                    <ScrollRotate method={"perc"} loops={3}>
-                        <object type="image/svg+xml" aria-label="pcImage" data={book} width="70px"></object>
-                        
-                    </ScrollRotate>
-                    </div>
+                        <div className="abtimg book">
+                        <ScrollRotate method={"perc"} loops={3}>
+                            <object type="image/svg+xml" aria-label="pcImage" data={book} width="70px"></object>
+                            
+                        </ScrollRotate>
+                        </div>
 
-                    <div className="abtimg book">
-                    <ScrollRotate method={"perc"} loops={3}>
-                        <object type="image/svg+xml" aria-label="pcImage" data={book} width="70px"></object>
-                        
-                    </ScrollRotate>
-                    </div>
+                        <div className="abtimg book">
+                        <ScrollRotate method={"perc"} loops={3}>
+                            <object type="image/svg+xml" aria-label="pcImage" data={book} width="70px"></object>
+                            
+                        </ScrollRotate>
+                        </div>
 
-                    <div className="abtimg">
+                    
+                    </div>
+                    <div className="abtimg main-book">
                         <ScrollRotate method={"perc"} loops={3}>
                             <object type="image/svg+xml" aria-label="pcImage" data={book} width="70px"></object>
                             
                         </ScrollRotate>
                     </div>
-
                     <p className='heading'> ABOUT <span>YATRA</span></p>
                     <p className='abuttext'>
                     Yatra is a dynamic and innovative web development company that specializes in creating custom websites for clients.

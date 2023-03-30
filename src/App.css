@@ -108,6 +108,9 @@ h1 {
   margin: 20vh 15vw;
 }
 
+.main-book {
+  margin: auto;
+}
 /* About us */
 .abutus {
   height: 100vh;
@@ -115,9 +118,15 @@ h1 {
   width: 100%;
 }
 
+.BooksHolder {
+  position: absolute;
+}
+
 .abtimg {
   text-align: center;
   transform: rotate(90deg);
+  max-height: fit-content;
+  max-width: fit-content;
   /* animation: rotation 2s infinite linear; */
 }
 
@@ -126,38 +135,38 @@ h1 {
 }
 .book:nth-child(1) {
   position: relative;
-  top: 250px;
-  right: 50px;
+  top: 100%;
+  right: 50%;
   transform: rotate(-55deg);
 }
 
 .book:nth-child(2) {
   position: relative;
-  top: -20px;
-  left: 650px;
+  top: 150%;
+  left: 80%;
   transform: rotate(-30deg);
 }
 
 .book:nth-child(3) {
   position: relative;
-  top: 320px;
-  left: 850px;
+  top: 20%;
+  left: -80%;
   transform: rotate(-30deg);
 }
 
 .book:nth-child(4) {
   position: relative;
-  top: -20px;
-  left: -450px;
+  top: 20%;
+  left: 200%;
   transform: rotate(-30deg);
 }
 
-.book:nth-child(5) {
+/* .book:nth-child(5) {
   position: relative;
   top: 420px;
-  left: -550px;
+  left: 20%;
   transform: rotate(50deg);
-}
+} */
 .abtcontainer {
   background-color: #dedede;
   margin-top: 10%;
