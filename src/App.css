@@ -1,41 +1,39 @@
 @font-face {
-  font-family: 'ocr';
-  src:url('./Component/fonts/OCRAEXT.TTF') format('woff2');
+  font-family: "ocr";
+  src: url("./Component/fonts/OCRAEXT.TTF") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'openSans';
-  src:url('./Component/fonts//OpenSans-CondBold.ttf') format('woff2');
+  font-family: "openSans";
+  src: url("./Component/fonts//OpenSans-CondBold.ttf") format("woff2");
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   /* font-family: Helvetica; */
-  font-family: 'openSans';
-  
+  font-family: "openSans";
 }
 
 /* Navigation codes */
-nav{
+nav {
   justify-content: space-between;
   display: flex;
-  background-color: #3AAFA9;
+  background-color: #3aafa9;
   z-index: 1;
   width: 100%;
   align-items: center;
   position: fixed;
-  padding: 10px ;
+  padding: 10px;
 }
 
-
-nav li{
-  display:inline-flex;
+nav li {
+  display: inline-flex;
 }
 
-nav li a{
+nav li a {
   text-decoration: none;
   text-transform: uppercase;
   padding: 0px 30px;
@@ -45,36 +43,36 @@ nav li a{
   cursor: pointer;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
   color: rgb(255, 255, 255);
   transition: all 0.5s ease os;
 }
 
-.logotext p{
+.logotext p {
   cursor: pointer;
   font-size: 28px;
   text-transform: uppercase;
   color: white;
-  font-family: 'ocr';
+  font-family: "ocr";
 }
 
-h1{
+h1 {
   text-align: center;
 }
 
 /* 1st page */
-.maincontainer{
-  background-color: #3AAFA9;
+.maincontainer {
+  background-color: #3aafa9;
   height: 100vh;
   /* width: 100vw; */
 }
 
-.container{
-  display: flex; 
+.container {
+  display: flex;
   margin: auto;
 }
 
-.maincontainer .text1{
+.maincontainer .text1 {
   margin: auto;
   margin-top: 30vh;
   font-size: 50px;
@@ -82,14 +80,14 @@ h1{
   letter-spacing: 1.5px;
   color: #fff;
   height: 300px;
-} 
+}
 
-.homeimage{
+.homeimage {
   margin: auto;
   margin-top: 15vh;
 }
 
-.abtBtn{
+.abtBtn {
   text-transform: uppercase;
   padding: 14px;
   color: #000000;
@@ -104,64 +102,63 @@ h1{
   letter-spacing: 4px;
 }
 
-.btn{
+.btn {
   display: absolute;
   top: 200px;
   margin: 20vh 15vw;
 }
 
 /* About us */
-.abutus{
+.abutus {
   height: 100vh;
   display: inline-block;
   width: 100%;
 }
 
-.abtimg{
+.abtimg {
   text-align: center;
   transform: rotate(90deg);
   /* animation: rotation 2s infinite linear; */
 }
 
-.book{
-    animation: rotation 20s infinite linear;
-  
+.book-ani {
+  animation: rotation 20s infinite linear;
 }
-.book:nth-child(1){
-  position: relative; 
+.book:nth-child(1) {
+  position: relative;
   top: 250px;
   right: 50px;
   transform: rotate(-55deg);
 }
 
-.book:nth-child(2){
-  position: relative; 
+.book:nth-child(2) {
+  position: relative;
   top: -20px;
   left: 650px;
   transform: rotate(-30deg);
 }
 
-.book:nth-child(3){
-  position: relative; 
+.book:nth-child(3) {
+  position: relative;
   top: 320px;
   left: 850px;
   transform: rotate(-30deg);
 }
 
-.book:nth-child(4){
-  position: relative; 
+.book:nth-child(4) {
+  position: relative;
   top: -20px;
   left: -450px;
   transform: rotate(-30deg);
 }
 
-.book:nth-child(5){
-  position: relative; 
+.book:nth-child(5) {
+  position: relative;
   top: 420px;
-  left:-550px;
+  left: -550px;
   transform: rotate(50deg);
 }
-.abtcontainer{
+.abtcontainer {
   background-color: #dedede;
   margin-top: 10%;
   margin-left: 25%;
@@ -179,20 +176,19 @@ h1{
   }
 }
 
-
-.heading{
-  color: #3AAFA9;
+.heading {
+  color: #3aafa9;
   font-size: 45px;
   text-align: center;
   letter-spacing: 1.5px;
   /* font-family: 'OpenSans'; */
 }
 
-span{
-  font-family: 'ocr';
+span {
+  font-family: "ocr";
 }
 
-.abuttext{
+.abuttext {
   padding: 20px 20px;
   height: fit-content;
   font-size: 20px;
@@ -203,28 +199,28 @@ span{
 }
 
 /* Website plans */
-.webplans{
+.webplans {
   /* border: 2px solid black; */
   height: 100vh;
   display: inline-block;
   width: 100%;
-  background-color: #17252A;
+  background-color: #17252a;
 }
 
-.btnn{
-  font-family:  Helvetica;
+.btnn {
+  font-family: Helvetica;
   font-weight: bolder;
   border-radius: 10px;
   font-size: 20px;
   padding: 5px;
   text-transform: uppercase;
-  background-color: #DEF2F1;
-  color:#17252A;
+  background-color: #def2f1;
+  color: #17252a;
 }
 
-.webheading{
+.webheading {
   /* border: 2px solid white; */
-  color: #3AAFA9;
+  color: #3aafa9;
   font-size: 50px;
   font-weight: bold;
   text-align: center;
@@ -233,9 +229,9 @@ span{
   margin-top: 40px;
 }
 
-.planBox{
+.planBox {
   /* color: #3AAFA9; */
-  color: #DEF2F1;
+  color: #def2f1;
   margin: 100px;
   margin-top: 20px;
   font-size: 30px;
@@ -243,46 +239,43 @@ span{
   cursor: pointer;
   opacity: 0.5;
   transition: 0.3s;
-
 }
 
-.planBox>p{
+.planBox > p {
   color: #557b79;
-  font-size:x-large;
+  font-size: x-large;
 }
 
-.planBox:hover
-{
+.planBox:hover {
   opacity: 1;
   /* color: red; */
   transform: scale(1.05);
 }
 
-.price{
-    color: #3AAFA9;
+.price {
+  color: #3aafa9;
 }
 
-.webboxes{
+.webboxes {
   justify-content: center;
   height: 100%;
   display: grid;
-  grid-template-columns: auto auto auto auto auto ;
-  
+  grid-template-columns: auto auto auto auto auto;
 }
 
 /* FAQ headig */
-.faq{
+.faq {
   height: 100vh;
   display: inline-block;
   width: 100%;
 }
 
-.faq2{
+.faq2 {
   display: flex;
   justify-content: center;
 }
 
-.faqheading{
+.faqheading {
   color: #2a938e;
   font-size: 60px;
   letter-spacing: 1.5px;
@@ -290,7 +283,7 @@ span{
   margin-top: 50px;
 }
 
-.faqbox{
+.faqbox {
   background-color: rgb(202, 202, 202);
   width: 20%;
   height: 400px;
@@ -302,32 +295,32 @@ span{
   cursor: pointer;
 }
 
-.faqbox:hover{
+.faqbox:hover {
   transform: scale(1.05);
 }
 
-.question{
+.question {
   color: #2a938e;
-  font-family: 'OpenSans';
+  font-family: "OpenSans";
   font-size: 35px;
 }
 
-.answertext{
+.answertext {
   margin-top: 40px;
   color: #124d4c;
   font-size: 23px;
-  font-family: 'OpenSans';
+  font-family: "OpenSans";
   font-weight: 600;
 }
 
 /* Contact page */
-.contact{
+.contact {
   /* border: 2px solid black; */
   height: 100vh;
-  background-color: #17252A;
+  background-color: #17252a;
 }
 
-.contcontainer{
+.contcontainer {
   position: absolute;
   display: flex;
   padding: 18px;
@@ -336,42 +329,42 @@ span{
   margin-left: 10em;
 }
 
-.contimg{
+.contimg {
   width: 50%;
 }
 
-.contimg img{
+.contimg img {
   width: 100%;
 }
 
-.contline{
+.contline {
   border: 2px solid #2a938e;
   margin-left: 5%;
   height: 90%;
 }
 
-.contdetail{
+.contdetail {
   color: #fff;
   /* border: 2px solid white; */
   margin-left: 4em;
   width: 30em;
   position: relative;
-  font-family: 'OpenSans';
+  font-family: "OpenSans";
   float: right;
 }
 
-.contheading{
+.contheading {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 90px;
 }
 
-.contheadname{
+.contheadname {
   font-family: Arial, Helvetica, sans-serif;
 
   font-size: 30px;
 }
 
-.conttexts{
+.conttexts {
   font-family: Arial, Helvetica, sans-serif;
 
   margin-top: 20px;
@@ -379,6 +372,6 @@ span{
   font-size: 22px;
 }
 
-.social_links a{
+.social_links a {
   margin-left: 1%;
 }

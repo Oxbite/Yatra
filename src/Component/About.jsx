@@ -13,13 +13,36 @@ export default function About(){
                 <div className="abtcontainer">
 
                         
-                        <object type="image/svg+xml" aria-label="pcImage" data={book} width="70px" className='book'></object>
-                        <object type="image/svg+xml" aria-label="pcImage" data={book} width="70px" className='book'></object>
-                        <object type="image/svg+xml" aria-label="pcImage" data={book} width="70px" className='book'></object>
-                        <object type="image/svg+xml" aria-label="pcImage" data={book} width="70px" className='book'></object>
-                        <object type="image/svg+xml" aria-label="pcImage" data={book} width="70px" className='book'></object>
+                        
 
 
+                    <div className="abtimg book">
+                    <ScrollRotate method={"perc"} loops={3}>
+                        <object type="image/svg+xml" aria-label="pcImage" data={book} width="70px"></object>
+                        
+                    </ScrollRotate>
+                    </div>
+
+                    <div className="abtimg book">
+                    <ScrollRotate method={"perc"} loops={3}>
+                        <object type="image/svg+xml" aria-label="pcImage" data={book} width="70px"></object>
+                        
+                    </ScrollRotate>
+                    </div>
+
+                    <div className="abtimg book">
+                    <ScrollRotate method={"perc"} loops={3}>
+                        <object type="image/svg+xml" aria-label="pcImage" data={book} width="70px"></object>
+                        
+                    </ScrollRotate>
+                    </div>
+
+                    <div className="abtimg book">
+                    <ScrollRotate method={"perc"} loops={3}>
+                        <object type="image/svg+xml" aria-label="pcImage" data={book} width="70px"></object>
+                        
+                    </ScrollRotate>
+                    </div>
 
                     <div className="abtimg">
                         <ScrollRotate method={"perc"} loops={3}>
