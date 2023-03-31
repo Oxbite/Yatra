@@ -2,6 +2,9 @@ import React from 'react';
 import './faq.css'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper.min.css'
+// import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import { Navigation, Pagination } from 'swiper';
 
 export default function FAQ() {
     return (
@@ -12,39 +15,39 @@ export default function FAQ() {
 
                     <div className="faq2">
 
-                        <Swiper
+                        <Swiper className='swiper_container'
                             // install Swiper modules
-                            // modules={[Navigation, Pagination, Scrollbar, A11y]}
+                            modules={[Navigation, Pagination]}
                             breakpoints={{
                                 0: {
-                                    spaceBetween:10,
-                                    slidesPerView:1
+                                    spaceBetween: 10,
+                                    slidesPerView: 1
 
                                 },
                                 480: {
-                                    spaceBetween:10,
-                                    slidesPerView:1
+                                    spaceBetween: 10,
+                                    slidesPerView: 1
 
                                 },
 
-                                550:{
-                                    spaceBetween:10,
-                                    slidesPerView:2
+                                550: {
+                                    spaceBetween: 10,
+                                    slidesPerView: 2
                                 },
                                 860: {
-                                    spaceBetween:15,
-                                    slidesPerView:3
+                                    spaceBetween: 15,
+                                    slidesPerView: 3
 
                                 },
                                 1024: {
-                                    spaceBetween:15,
-                                    slidesPerView:4
+                                    spaceBetween: 15,
+                                    slidesPerView: 4
 
                                 },
                             }}
 
                             navigation
-                            pagination={{ clickable: true }}
+                            pagination={{ el: '.swiper-pagination', clickable: true }}
                             scrollbar={{ draggable: true }}
                             onSwiper={(swiper) => console.log(swiper)}
                             onSlideChange={() => console.log('slide change')}
@@ -94,6 +97,8 @@ export default function FAQ() {
                                     </p>
                                 </div>
                             </SwiperSlide>
+                            <div className="swiper-pagination"></div>
+
                         </Swiper>
                     </div>
                 </div>

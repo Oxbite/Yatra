@@ -46,7 +46,10 @@
     font-family: "OpenSans";
     font-weight: 600;
   }
-
+  .swiper_container{
+    padding-bottom: 80px!important;
+  }
+  
   @media (max-width: 500px) {
     .faqbox{
         height: 250px;
@@ -61,3 +64,17 @@
         font-size: 30px;
       }
   }
+
+  /* .swiper-pagination {
+    position: relative;
+    width: 15rem !important;
+    bottom: 1rem;
+  } */
+  
+  /* .swiper-pagination .swiper-pagination-bullet {
+    filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+  }
+  
+  .swiper-pagination .swiper-pagination-bullet-active {
+    background: var(--primary);
+  } */
