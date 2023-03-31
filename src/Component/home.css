@@ -90,12 +90,12 @@
 @media (max-width: 499px) {
     .computer {
         margin-top: 1px;
-        width: 80px;
+        width: 100px;
     }
 
     .maincontainer .text1 {
         margin-top: 16vh;
-        font-size: 12px;
+        font-size: 20px;
 
     }
     

@@ -95,70 +95,7 @@ span {
     text-align: justify;
 }
 
-/* Website plans */
-.webplans {
-    /* border: 2px solid black; */
-    height: 100vh;
-    display: inline-block;
-    width: 100%;
-    background-color: #17252a;
-}
 
-.btnn {
-    font-family: Helvetica;
-    font-weight: bolder;
-    border-radius: 10px;
-    font-size: 20px;
-    padding: 5px;
-    text-transform: uppercase;
-    background-color: #def2f1;
-    color: #17252a;
-}
-
-.webheading {
-    /* border: 2px solid white; */
-    color: #3aafa9;
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
-    padding: 12px;
-    /* letter-spacing: 2.5px; */
-    margin-top: 40px;
-}
-
-.planBox {
-    /* color: #3AAFA9; */
-    color: #def2f1;
-    margin: 100px;
-    margin-top: 20px;
-    font-size: 30px;
-    text-align: center;
-    cursor: pointer;
-    opacity: 0.5;
-    transition: 0.3s;
-}
-
-.planBox>p {
-    color: #557b79;
-    font-size: x-large;
-}
-
-.planBox:hover {
-    opacity: 1;
-    /* color: red; */
-    transform: scale(1.05);
-}
-
-.price {
-    color: #3aafa9;
-}
-
-.webboxes {
-    justify-content: center;
-    height: 100%;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-}
 
 @media (max-width: 1200px) {
     .heading{
@@ -196,11 +133,14 @@ span {
 }
 
 @media (max-width: 500px) {
+    .heading{
+        font-size: 5vw;
+    }
     .abtcontainer {
         margin-left: 10%;
         width: 75%;
     }
     .abuttext{
-        font-size: 12px;
+        font-size: 3.5vw;
     }
 }

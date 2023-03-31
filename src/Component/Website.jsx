@@ -2,6 +2,7 @@ import React from "react";
 import Websiteimg from "../images/images/money1.svg";
 import Websiteimg1 from "../images/images/money2.svg";
 import Websiteimg2 from "../images/images/money3.svg";
+import './website.css'
 
 export default function Website() {
   return (
@@ -11,7 +12,7 @@ export default function Website() {
           <h1 className="webheading"> Website Plans</h1>
           <div className="webboxes">
             <div className="planBox">
-              <object type="image/svg+xml" aria-label="pcImage" data={Websiteimg} width="200px"></object>
+              <object className="pricing-logo" type="image/svg+xml" aria-label="pcImage" data={Websiteimg}></object>
               <h2>Basic</h2>
               <h3 className="price">NPR.8,000+</h3>
               <br />
@@ -25,7 +26,7 @@ export default function Website() {
             <div className="contline"></div>
 
             <div  className="planBox">
-              <object type="image/svg+xml" aria-label="pcImage" data={Websiteimg1} width="200px"></object>
+              <object className="pricing-logo" type="image/svg+xml" aria-label="pcImage" data={Websiteimg1}></object>
               <h2>Advanced</h2>
               <h3 className="price">NPR.20,000+</h3>
               <br />
@@ -39,7 +40,7 @@ export default function Website() {
             <div className="contline"></div>
 
             <div  className="planBox">
-              <object type="image/svg+xml" aria-label="pcImage" data={Websiteimg2} width="200px"></object>
+              <object className="pricing-logo" type="image/svg+xml" aria-label="pcImage" data={Websiteimg2}></object>
               <h2>Premium</h2>
               <h3 className="price">NPR.1,00,000+</h3>
               <br />
