@@ -40,18 +40,18 @@ export default function FAQ() {
 
                                 },
 
-                                550: {
+                                650: {
                                     spaceBetween: 10,
-                                    slidesPerView: 2
+                                    slidesPerView: 1
                                 },
-                                860: {
+                                810: {
                                     spaceBetween: 15,
                                     slidesPerView: 2
 
                                 },
                                 1024: {
                                     spaceBetween: 15,
-                                    slidesPerView: 2
+                                    slidesPerView: 3
 
                                 },
                             }}
