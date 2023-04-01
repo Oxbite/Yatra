@@ -7,14 +7,21 @@
 
 @font-face {
   font-family: "openSans";
-  src: url("./Component/fonts//OpenSans-CondBold.ttf") format("woff2");
+  src: url("./Component/fonts/OpenSans-CondBold.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("./Component/fonts/Nunito-VariableFont_wght.ttf") format("woff2");
 }
 
 * {
   margin: 0;
   padding: 0;
   /* font-family: Helvetica; */
-  font-family: "openSans";
+  /* font-family: "openSans"; */
+  font-family: "Nunito";
+
 }
 
 /* Navigation codes */

@@ -52,7 +52,6 @@ nav {
     }
     .hamburger{
         margin-right: 50px;
-
         display: block;
         cursor: pointer;
     }
@@ -63,23 +62,26 @@ nav {
         margin: 6px;
     }
     .navItems.active{
-        height: 450px;
+        height: 100vh;
     }
 
     .navItems.active li{
       /* display: none; */
       display: block;
+      opacity: 1;
+
     }
 
     .navItems{
         height: 0;
         position: absolute;
-        top: 80px;
+        top: 60px;
         left: 0;
         right: 0;
         width: 100vw;
-        background: white;
+        background: #3aafa9;
         transition: 0.2s;
+        opacity: 0.9;
       
     }
     .navItems li{

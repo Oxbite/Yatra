@@ -36,7 +36,7 @@ export default function Navbar(props){
                   <Link to='faq' smooth={true} duration={1000}>FAQ</Link>
                   </li>
                   <li>
-                  <Link to='contact' smooth={true} duration={1000}>Contact</Link>
+                  <Link to='footer' smooth={true} duration={1000}>Contact</Link>
                   </li>
               </ul>
             </div>

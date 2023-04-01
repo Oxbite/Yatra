@@ -1,13 +1,14 @@
 /* Website plans */
 .webplans {
     /* border: 2px solid black; */
+    padding-top: 20px;
     display: inline-block;
     width: 100%;
     background-color: #17252a;
 }
 
 .pricing-logo{
-    width: 13vw;
+    width: 10vw;
 }
 
 .btnn {
@@ -46,7 +47,7 @@
 
 .planBox>p {
     color: #557b79;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
 }
 .planBox>h2 {
 
@@ -75,12 +76,19 @@
     grid-template-columns: auto auto auto auto auto;
 }
 
+
+
 @media (max-width: 790px) {
     .webboxes {
         display: block;
     }
     .pricing-logo{
-        width: 25vw;
+        width: 20vw;
+    }
+
+    .planBox{
+        opacity: 1;
+
     }
     
     
